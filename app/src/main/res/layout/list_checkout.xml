@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="contoh item"
+                android:layout_margin="3dp"
+                />
+
+            <TextView
+                android:id="@+id/harga_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20.000"
+                android:layout_toRightOf="@id/item"
+                android:layout_marginLeft="100dp"
+                />
+
+            <TextView
+                android:id="@+id/qty_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:layout_toRightOf="@id/harga_item"
+                android:layout_marginLeft="55dp"/>
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20.000"
+                android:layout_toRightOf="@id/qty_item"
+                android:gravity="right"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

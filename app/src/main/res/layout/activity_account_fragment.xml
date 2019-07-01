@@ -1,0 +1,161 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/putih"
+    android:id="@+id/layout_parent"
+    android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/sub_Parent"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@color/hitam">
+
+            <TextView
+                android:textColor="@color/putih"
+                android:id="@+id/display_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/raja_ade_susian"
+                android:gravity="center"
+                android:layout_marginTop="25dp"
+                android:padding="5dp"
+                android:textStyle="bold"/>
+            <View
+                android:id="@+id/line"
+                android:layout_below="@id/display_username"
+                android:layout_width="170dp"
+                android:layout_height="1dp"
+                android:background="@color/putih"
+                android:layout_centerInParent="true"
+                />
+            <Button
+                android:textColor="@color/putih"
+                android:id="@+id/btn_logout"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="@string/logout"
+                android:layout_below="@+id/line"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"/>
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/list"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/sub_Parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/keranjang_saya"
+            android:padding="@dimen/padding_10"
+            android:text="Keranjang Saya"
+            android:textColor="@color/hitam"
+            android:drawableRight="@drawable/ic_right_black_24dp"
+            android:drawableLeft="@drawable/shopping_24"
+            android:drawablePadding="@dimen/padding_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@id/keranjang_saya"
+            android:id="@+id/favorit_saya"
+            android:padding="@dimen/padding_10"
+            android:text="Favorit Saya"
+            android:textColor="@color/hitam"
+            android:drawableRight="@drawable/ic_right_black_24dp"
+            android:drawableLeft="@drawable/ic_favorite_black_24dp"
+            android:drawablePadding="@dimen/padding_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@id/favorit_saya"
+            android:id="@+id/koin_saya"
+            android:padding="@dimen/padding_10"
+            android:text="Koin EatDict"
+            android:textColor="@color/hitam"
+            android:drawableLeft="@drawable/ic_koin_24dp"
+            android:drawableRight="@drawable/ic_right_black_24dp"
+            android:drawablePadding="@dimen/padding_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@id/koin_saya"
+            android:id="@+id/akun_saya"
+            android:padding="@dimen/padding_10"
+            android:text="Akun Saya"
+            android:textColor="@color/hitam"
+            android:drawableLeft="@drawable/ic_akun_saya_24dp"
+            android:drawableRight="@drawable/ic_right_black_24dp"
+            android:drawablePadding="@dimen/padding_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@id/akun_saya"
+            android:id="@+id/tentang_freetime"
+            android:padding="@dimen/padding_10"
+            android:text="Tentang Freetime"
+            android:textColor="@color/hitam"
+            android:drawableLeft="@drawable/ic_freetime_24dp"
+            android:drawableRight="@drawable/ic_right_black_24dp"
+            android:drawablePadding="@dimen/padding_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/follow"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Follow us on:"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_below="@id/list"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_marginTop="@dimen/padding_10"/>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_below="@id/follow"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/facebook"-->
+            <!--android:layout_margin="@dimen/padding_10"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/facebook_48"-->
+            <!--android:background="@color/fbutton_color_transparent"/>-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/instagram"-->
+            <!--android:layout_margin="@dimen/padding_10"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/instagram_48"-->
+            <!--android:background="@color/fbutton_color_transparent"/>-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/twitter"-->
+            <!--android:layout_margin="@dimen/padding_10"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/twitter_48"-->
+            <!--android:background="@color/fbutton_color_transparent"/>-->
+
+    <!--</LinearLayout>-->
+
+
+
+
+
+</RelativeLayout>

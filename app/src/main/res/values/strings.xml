@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Order Kuy</string>
+    <string name="with">FREETIME</string>
+    <string name="or_you_can">or you can</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="order">Order</string>
+    <string name="discount">Discount</string>
+    <string name="Account">Account</string>
+    <string name="account">Account</string>
+    <string name="logout">Logout</string>
+    <string name="raja_ade_susian">Susian</string>
+
+    <string name="quantity">Quantity</string>
+    <string name="brew_tea">ADD TO CART</string>
+    <string name="initial_cost">$0.00</string>
+    <string name="initial_quantity_value">1</string>
+    <string name="total">Total</string>
+    <string name="price">PRICE: </string>
+    <string name="action_cart">Shopping Cart</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="fragrance_name">Fragrance Name</string>
+    <string name="item_added">Item Added to WishList</string>
+    <string name="item_removed">Item Removed from WishList</string>
+    <string name="toolbar_favorite_snack">"Toolbar favorite clicked: "</string>
+    <string name="wish_list">Wish List</string>
+    <string name="wish_list_branch">Wish List</string>
+</resources>
